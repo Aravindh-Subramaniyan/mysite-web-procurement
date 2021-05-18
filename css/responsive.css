@@ -1963,6 +1963,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .menu{
         padding: 10px 30px;
         background: #fff;
@@ -4536,6 +4537,53 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+  .gridimage {
+    display: none;
+  }
+  .seo_service_item_full{
+     margin-left: 0px;
+     width: 100%;
+     display: block;
+     max-width: 340px; 
+  }
+  .aligncontent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .leftcontent li{
+    text-align: left; 
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .leftcontent{
+    text-align: left; 
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .rightcontent{
+    text-align: left; 
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width:576px) and (max-width: 776px){
+ .seo_service_item_full{
+     margin-left: 0px;
+     width: 100%;
+  }
+}
+@media (min-width:766px) and (max-width: 1000px){
+ .seo_service_item_full{
+     margin-left: 0px;
+     width: 700px;
+  }
+}
+
+
 @media (max-width:576px){
     .memphis-parallax{
         display: none;
@@ -4918,7 +4966,19 @@
         margin-left: 0;
     }
     .startup_tab .nav-item{
-        width: calc(100% / 2);
+        width: calc(100% / 5);
+    }
+    .startup_tab .nav-item .nav-link{
+        border:none;
+    }
+
+    /*.startup_tab li h3{
+        display: none;
+        font-size: 8px;
+    }*/
+
+    .startup_tab .nav-item .nav-link h3{
+           font-size: 12px
     }
     .startup_tab_img .phone_img{
         text-align: right;
