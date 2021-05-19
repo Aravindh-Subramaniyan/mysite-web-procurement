@@ -4570,7 +4570,8 @@
   }
 }
 
-@media (min-width:576px) and (max-width: 776px){
+
+@media (min-width:480px) and (max-width: 776px){
  .seo_service_item_full{
      margin-left: 0px;
      width: 100%;

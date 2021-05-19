@@ -6835,12 +6835,14 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .seo_service_item {
  /* box-shadow: 1px 1px 1px 1px rgba(38, 59, 94, 0.1);*/
-  box-shadow: 0px 0px 15px 0px rgba(38, 59, 94, 0.1);
+ /* box-shadow: 0px 0px 15px 0px rgba(38, 59, 94, 0.1);*/
   padding: 15px 40px 20px;
   transition: all 0.3s linear;
   cursor: pointer;
   border-radius: 5px;
   margin-bottom: 30px;
+  border-top: 6px solid transparent;
+  font-family: Poppins, sans-serif;
 }
 
 .seo_service_item_small {
@@ -6859,10 +6861,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-weight: 500;
   margin-top: 10px;
   transition: color 0.2s linear;
+
 }
 
 .seo_service_item_full {
- /* box-shadow: 1px 1px 1px 1px rgba(38, 59, 94, 0.1);*/
   box-shadow: 0px 0px 15px 0px rgba(38, 59, 94, 0.1);
   padding: 15px 40px 20px;
   transition: all 0.3s linear;
@@ -6871,41 +6873,71 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-left: 200px;
   background: white;
 }
+
 .bg{
   background-image:  url('../img/new/tab_shape_bg.png');
   opacity: 1;
+  background-repeat: no-repeat;
 }
 
-
 .seo_service_item_full h4 {
-  font-size: 20px;
-  color: #263b5e;
+  font-size: 30px;
   font-weight: 500;
+  color: #2c2c51;
   margin-top: 20px;
 }
 
 .seo_service_item_full p {
-  margin-top: 10px ;
+  margin-top: 20px ;
   font-size: 16px;
-  color: #6a7695;
+  color: black;
+  font-weight: 400;
+  line-height: 20px;
+  margin-right: 100px;
 }
+
 .aligncontent{
   display: flex;
   flex-direction: row;
 }
 .leftcontent{
   text-align: left;
-  margin-top: 50px;
+  width: 350px;
+  align-items: center;
 }
+
 .rightcontent{
   text-align: right;
-  margin-top: 50px;
+  width: 350px;
+}
+
+.leftcontent li{
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.leftcontent ul{
+  align-content: center;
+}
+.rightcontent ul{
+  margin-top: 90px;
+}
+
+.rightcontent li{
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  font-weight: 400;
+  margin-top: 20px;
 }
 
 .gridimage{
-    width: 300px;
-    height: 300px;
-    margin-top: auto;
+    width: 350px;
+    height: 350px;
+    margin-top: 0px;
     margin-bottom: auto;
     -webkit-transform: translate(10px,0); 
 }
@@ -6915,11 +6947,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   }
 
 .seo_service_item h4 {
-  font-size: 20px;
-  color: #263b5e;
-  font-weight: 500;
   margin-top: 10px;
   transition: color 0.2s linear;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c2c51;
 }
 .seo_service_item h4:hover {
   color: #5e2ced;
@@ -6927,7 +6959,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .seo_service_item p {
   margin-top: 10px ;
   font-size: 16px;
-  color: #6a7695;
+  font-weight: 400;
+  color: #7b7b93;
 }
 .seo_service_item i {
   font-size: 40px;
@@ -6938,13 +6971,19 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #5e2ced;
 }
 #icon1 .seo_service_item:hover {
-  border-left:  5px solid #0abc7b;
+  border-color:  #0abc7b;
+  background: #fff;
+  box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
 }
 #icon2 .seo_service_item:hover {
-  border-left:  5px solid #d6a719;
+  border-color: #d6a719;
+  background: #fff;
+  box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
 }
 #icon3 .seo_service_item:hover {
-  border-left:  5px solid #6754e2;
+  border-color: #6754e2;
+  background: #fff;
+  box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
 }
 
 /*=========== case_studies_area css ==========*/
