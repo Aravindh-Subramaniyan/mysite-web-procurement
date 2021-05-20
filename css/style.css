@@ -5519,8 +5519,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .startup_tab .nav-item .nav-link .icon {
   width: 100%;
   max-width: 70px;
-  height: 100%;
-  max-height: 70px;
+  height: 70px;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -6853,6 +6852,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   cursor: pointer;
   border-radius: 5px;
   margin-bottom: 0px;
+  border-top: 6px solid transparent;
 }
 
 .seo_service_item_small h4 {
@@ -6861,7 +6861,16 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-weight: 500;
   margin-top: 10px;
   transition: color 0.2s linear;
+}
 
+#icon1 .seo_service_item_small:hover {
+  border-color:  #0abc7b;
+}
+#icon2 .seo_service_item_small:hover {
+  border-color: #d6a719;
+}
+#icon3 .seo_service_item_small:hover {
+  border-color: #6754e2;
 }
 
 .seo_service_item_full {
@@ -6920,10 +6929,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .leftcontent ul{
-  align-content: center;
+  margin-top: 60px;
 }
 .rightcontent ul{
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 .rightcontent li{
@@ -6953,19 +6962,26 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-weight: 600;
   color: #2c2c51;
 }
+
 .seo_service_item h4:hover {
   color: #5e2ced;
 }
+
 .seo_service_item p {
   margin-top: 10px ;
   font-size: 16px;
   font-weight: 400;
   color: #7b7b93;
 }
+
 .seo_service_item i {
   font-size: 40px;
   color: #afb8ce;
   transition: color 0.2s linear;
+}
+
+.bold{
+  font-weight: 600;
 }
 .seo_service_item i:hover {
   color: #5e2ced;

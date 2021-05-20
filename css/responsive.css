@@ -4547,6 +4547,9 @@
      display: block;
      max-width: 340px; 
   }
+  .seo_service_item_full p{
+     margin-right: 0px;
+  }
   .aligncontent{
     display: flex;
     flex-direction: column;
@@ -4556,17 +4559,32 @@
   .leftcontent li{
     text-align: left; 
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
+  }
+  .rightcontent li{
+    text-align: left; 
+    margin-left: 0px;
+    margin-top: 10px;
   }
   .leftcontent{
     text-align: left; 
     margin-right: 0px;
     margin-top: 0px;
+    width: 250px;
   }
+
+  .leftcontent ul{
+    margin-top: 0px;
+  }
+  .rightcontent ul{
+    margin-top: 0px;
+  }
+
   .rightcontent{
     text-align: left; 
     margin-right: 0px;
     margin-top: 0px;
+    width: 250px;
   }
 }
 
