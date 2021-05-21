@@ -4331,7 +4331,7 @@
         display: none;
     }
     .h_features_item{
-        padding-right: 0;+
+        padding-right: 0;
     }
     .h_price_body .h_p_list .h_price_item{
         position: relative;
@@ -5694,6 +5694,9 @@
 }
 
 @media (max-width:450px){
+    .header_area{
+        width: 350px;
+    }
     .price_tab{
         max-width: 100%;
         border-radius: 3px;

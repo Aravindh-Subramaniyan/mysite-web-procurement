@@ -447,6 +447,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #fff;
 }
 
+.feature-icons{
+  width: 40px;
+  height: 40px;
+  line-height: 20px;
+}
+
 .slider_btn {
   font: 500 14px/20px "Poppins", sans-serif;
   border-radius: 45px;
@@ -4202,48 +4208,62 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .icon {
   width: 72px;
   height: 72px;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
   border-radius: 50%;
-  line-height: 82px;
+  line-height: 62px;
   font-size: 30px;
   text-align: center;
   transition: all 0.3s linear;
 }
-.icon.icon_3 {
-  background-color: rgba(103, 84, 226, 0.059);
-  border-color: rgba(103, 84, 226, 0.3);
-  color: #6754e2;
-}
-.icon.icon_4 {
-  color: #f91c60;
-  background-color: rgba(248, 27, 95, 0.059);
-  border-color: rgba(248, 27, 95, 0.3);
-}
+
 .s_service_item .icon.icon_1 {
   background-color: rgba(10, 188, 123, 0.059);
   border-color: rgba(10, 188, 123, 0.3);
   color: #0abc7b;
 }
 .icon.icon_1 {
-  background-color: rgba(10, 188, 123, 0.059);
-  border-color: rgba(10, 188, 123, 0.3);
-  color: red;
+  background-color: #F2EBFF;
 }
  .icon.icon_2 {
-  border-color: rgba(231, 178, 18, 0.3);
-  background-color: rgba(214, 167, 25, 0.059);
-  color: #d6a719;
+  background-color: #FFF2DC;
 }
 .icon.icon_3 {
-  background-color: rgba(103, 84, 226, 0.059);
-  border-color: rgba(103, 84, 226, 0.3);
-  color: #6754e2;
+  background-color:#FFE5E2;
 }
 .icon.icon_4 {
-  color: #f91c60;
-  background-color: rgba(248, 27, 95, 0.059);
-  border-color: rgba(248, 27, 95, 0.3);
+  background-color: #D9F5F9;
+}
+.icon.icon_5 {
+  background-color: #EBFADF;
+}
+.icon.icon_6 {
+  background-color: #FFFFB8;
+}
+.icon.icon_7 {
+  background-color: #EBF8FF;
+}
+.icon.icon_8 {
+  background-color:#FFEAF2;
+}
+.icon.why_icon1{
+  background-color:#EBFADF;
+  width:72px;
+  height: 72px;
+}
+.icon.why_icon2{
+  background-color:#D9F5F9;
+  width:72px;
+  height: 72px;
+}
+.icon.why_icon3{
+  background-color:#FFF2DC;
+  width:72px;
+  height: 72px;
+}
+
+.bottom-gap{
+  margin-bottom: 200px;
 }
 .s_service_item .icon.icon_2 {
   border-color: rgba(231, 178, 18, 0.3);
@@ -5958,22 +5978,17 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 90px;
 }
 .p_service_item .icon {
-  box-sizing: content-box;
-  width: 55px;
-  height: 60px;
-  position: relative;
-  margin: 0px 0px 25px;
-  font-size: 24px;
-  -webkit-border-radius: 50%/14%;
-  border-radius: 50%/14%;
-  color: white;
+    width: 72px;
+  height: 72px;
+  /* border-width: 1px;
+  border-style: solid; */
+  border-radius: 50%;
+  line-height: 62px;
+  font-size: 30px;
   text-align: center;
-  line-height: 64px;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  z-index: 1;
+  transition: all 0.3s linear;
 }
-.p_service_item .icon:before {
+/* .p_service_item .icon:before {
   box-sizing: content-box;
   position: absolute;
   content: "";
@@ -5987,7 +6002,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-overflow: clip;
   text-shadow: none;
   z-index: -1;
-}
+} */
 .p_service_item .icon.icon_one {
   background: #7142f8;
 }
@@ -6155,8 +6170,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 30px;
 }
 .agency_service_item .icon {
-  width: auto;
-  height: auto;
   display: inline-block;
 }
 .agency_service_item .icon i {
@@ -6864,13 +6877,28 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 #icon1 .seo_service_item_small:hover {
-  border-color:  #0abc7b;
+  border-color:  #330B86;
 }
 #icon2 .seo_service_item_small:hover {
-  border-color: #d6a719;
+  border-color: #FA8C16;
 }
 #icon3 .seo_service_item_small:hover {
-  border-color: #6754e2;
+  border-color: #FA541C;
+}
+#icon4 .seo_service_item_small:hover {
+  border-color: #13C2C2;
+}
+#icon5 .seo_service_item_small:hover {
+  border-color: #52C41A;
+}
+#icon6 .seo_service_item_small:hover {
+  border-color: #FADB14;
+}
+#icon7 .seo_service_item_small:hover {
+  border-color: #1890FF;
+}
+#icon8 .seo_service_item_small:hover {
+  border-color: #EB2F96;
 }
 
 .seo_service_item_full {
@@ -6987,21 +7015,36 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #5e2ced;
 }
 #icon1 .seo_service_item:hover {
-  border-color:  #0abc7b;
+  border-color:  #330B86;
   background: #fff;
   box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
 }
 #icon2 .seo_service_item:hover {
-  border-color: #d6a719;
+  border-color: #FA8C16;
   background: #fff;
   box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
 }
 #icon3 .seo_service_item:hover {
-  border-color: #6754e2;
+  border-color: #FA541C;
+  background: #fff;
+  box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+}
+#icon4 .seo_service_item:hover {
+  border-color: #13C2C2;
   background: #fff;
   box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
 }
 
+#icon5 .seo_service_item:hover {
+  border-color: #52C41A;
+  background: #fff;
+  box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+}
+#icon6 .seo_service_item:hover {
+  border-color:#FADB14;
+  background: #fff;
+  box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+}
 /*=========== case_studies_area css ==========*/
 .case_studies_slider .owl-dots {
   margin-top: 40px;
