@@ -842,7 +842,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   width: 0;
   transition: 0.7s 0.3s allcubic-bezier(0.1, 0.1, 0.1, 1);
 }
-
+.whyus-top{
+  margin-top: 20px;
+}
+.icon2width,.icon5width{
+  width: 85px;
+}
 @keyframes spinner {
   to {
     transform: rotateZ(360deg);

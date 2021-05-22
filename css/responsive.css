@@ -4537,10 +4537,21 @@
     }
 }
 
+@media only screen and (max-width: 380px){
+    .seo_service_item_small .icon.icon_2, .icon.icon_4, .icon.icon_7{
+      width: 94px;
+  }
+  .seo_service_item_small .icon.icon_8{
+      width: 82.7px;
+  }
+  
+}
+
 @media only screen and (max-width: 480px) {
   .gridimage {
     display: none;
   }
+  
   .seo_service_item_full{
      margin-left: 0px;
      width: 100%;
@@ -4550,6 +4561,35 @@
   .seo_service_item_full p{
      margin-right: 0px;
   }
+  .seo_service_item_full h4{
+     font-size: 20px;
+     margin-top: 10px;
+  }
+  #Budget .seo_service_item_full h4,#Finance .seo_service_item_full h4,#Bidding .seo_service_item_full h4{
+    margin-top: 20px;  
+}
+
+ .seo_service_item .icon.icon_2,.icon.icon_4{
+     width:75px;
+ }
+  .seo_service_item_full .icon.icon_2{
+      width: 95px;
+  }
+  .seo_service_item_full .icon.icon_3{
+      width: 85px;
+  }
+  .seo_service_item_full .icon.icon_8{
+      width: 78px;
+  }
+  .seo_service_item_full .icon.icon_7{
+      width: 90px;
+  }
+  .seo_service_item_full .icon.icon_8 .feature-icons{
+      margin-bottom: 8px;
+ }
+ .top-margin{
+     margin-top: 100px;
+ }
   .aligncontent{
     display: flex;
     flex-direction: column;
@@ -4588,7 +4628,12 @@
   }
 }
 
-
+/* @media (max-width:480px){
+  .animation-preloader{
+    max-width: 100%;
+    margin-left: 0px;
+  }
+} */
 @media (min-width:480px) and (max-width: 776px){
  .seo_service_item_full{
      margin-left: 0px;
